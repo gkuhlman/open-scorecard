@@ -482,6 +482,10 @@ function generatePage(config) {
       box-sizing: border-box;
     }
 
+    html {
+      background: var(--page-bg);
+    }
+
     body {
       font-family: var(--font-body);
       background: var(--page-bg);
@@ -489,6 +493,7 @@ function generatePage(config) {
       display: flex;
       justify-content: center;
       padding: 40px 20px;
+      min-width: fit-content;
     }
 
     /* ===================== PAGE ===================== */
