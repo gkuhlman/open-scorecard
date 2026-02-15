@@ -1,0 +1,10 @@
+{
+  "name": "scorecard",
+  "version": "1.0.0",
+  "description": "Config-driven baseball scorecard generator. Fork, edit scorecard.json, deploy to GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/generate.js"
+  },
+  "keywords": ["baseball", "scorecard", "generator"],
+  "license": "MIT"
+}
